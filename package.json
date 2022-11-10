@@ -1,7 +1,7 @@
 {
   "name": "build-tag-webpack-plugin",
   "version": "0.1.0",
-  "description": "print webpack build version info on console. 在控制台打印webpack打包版本信息",
+  "description": "print webpack build version info on console. 在控制台打印webpack打包版本信息的webpack插件",
   "main": "src/index.js",
   "license": "MIT",
   "engines": {
@@ -24,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/touxing/fast-git-clone.git"
+    "url": "https://github.com/touxing/build-tag-webpack-plugin.git"
   },
   "peerDependencies": {
     "webpack": "^4.0.0"
