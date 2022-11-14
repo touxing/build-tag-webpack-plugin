@@ -17,6 +17,8 @@ class BuildTagWebpackPlugin {
     return new webpack.BannerPlugin({
       entryOnly: true,
       raw: true,
+      test: /app.*\.js$/,
+      exclude: /(\.css|vendor.*\.js|runtime.*\.js)$/,
       // footer: true, webpack5.7 以上才有此属性
       banner: data => {
         if(options.banner) {
