@@ -1,6 +1,6 @@
 {
   "name": "build-tag-webpack-plugin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "print webpack build version info on console. 在控制台打印webpack打包版本信息的webpack插件",
   "main": "src/index.js",
   "license": "MIT",
