@@ -50,12 +50,12 @@ class BuildTagWebpackPlugin {
 function logTpl(key, value, bgColor = '#41b883') {
   //background: #606060, #42c02e, #1475b2
   return (
-    `console.log(` +
+    `;console.log(` +
     `'%c ${key} %c ${value} %c',` +
     `'background:#606060 ; padding: 1px; border-radius: 3px 0 0 3px;  color: #fff',` +
     `'background:${bgColor} ; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff',` +
     `'background:transparent'` +
-    `)`
+    `);`
   )
 }
 
