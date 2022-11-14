@@ -10,7 +10,7 @@ try {
 }
 
 class BuildTagWebpackPlugin {
-  constructor(options) {
+  constructor(options = {}) {
     // 调用webpack内置的 BannerPlugin
     // 注入版权信息插件
     // reference: https://webpack.docschina.org/plugins/banner-plugin#root
